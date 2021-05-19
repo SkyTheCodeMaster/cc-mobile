@@ -1,0 +1,352 @@
+{
+  "basicItems": {
+    "cardboard": {
+      "sellPrice": 0.18,
+      "buyPrice": 0.24
+    },
+    "concrete": {
+      "sellPrice": 3.14,
+      "buyPrice": 4.19
+    },
+    "magnet": {
+      "sellPrice": 4.26,
+      "buyPrice": 5.68
+    },
+    "metal": {
+      "sellPrice": 2.55,
+      "buyPrice": 3.40
+    },
+    "paint": {
+      "sellPrice": 1.70,
+      "buyPrice": 2.26
+    },
+    "plastic": {
+      "sellPrice": 0.45,
+      "buyPrice": 0.60
+    },
+    "rareMetal": {
+      "sellPrice": 5.86,
+      "buyPrice": 7.81
+    },
+    "rubber": {
+      "sellPrice": 0.83,
+      "buyPrice": 1.10
+    },
+    "wire": {
+      "sellPrice": 1.28,
+      "buyPrice": 1.71
+    }
+  },
+  "tierOne": {
+    "advConcrete": {
+      "sellPrice": 14.47,
+      "costs": {
+        "concrete": 2,
+        "metal": 2
+      }
+    },
+    "belt": {
+      "sellPrice": 2.60,
+      "costs": {
+        "rubber": 2
+      }
+    },
+    "box": {
+      "sellPrice": 2.21,
+      "costs": {
+        "cardboard": 1
+      }
+    },
+    "cable": {
+      "sellPrice": 3.28,
+      "costs": {
+        "metal": 1
+      }
+    },
+    "circuit": {
+      "sellPrice": 3.54,
+      "costs": {
+        "plastic": 2,
+        "wire": 1
+      }
+    },
+    "gear": {
+      "sellPrice": 6.56,
+      "costs": {
+        "metal": 2
+      }
+    },
+    "hose": {
+      "sellPrice": 2.60,
+      "costs": {
+        "rubber": 2
+      }
+    },
+    "metalWheel": {
+      "sellPrice": 6.56,
+      "costs": {
+        "metal": 2
+      }
+    },
+    "motor": {
+      "sellPrice": 17.40,
+      "costs": {
+        "magnet": 2,
+        "metal": 1,
+        "wire": 2
+      }
+    },
+    "plasticWheel": {
+      "sellPrice": 1.72,
+      "costs": {
+        "plastic": 2
+      }
+    },
+    "pump": {
+      "sellPrice": 8.72,
+      "costs": {
+        "metal": 1,
+        "plastic": 1,
+        "rubber": 1
+      }
+    },
+    "gnome": {
+      "sellPrice": 15.90,
+      "costs": {
+        "concrete": 1,
+        "paint": 1,
+        "box": 1
+      }
+    },
+    "speakers": {
+      "sellPrice": 29.42,
+      "costs": {
+        "magnet": 2,
+        "plastic": 2,
+        "wire": 1,
+        "box": 1
+      }
+    },
+    "toaster": {
+      "sellPrice": 22.74,
+      "costs": {
+        "metal": 2,
+        "wire": 2,
+        "box": 1
+      }
+    }
+  },
+  "tierTwo": {
+    "airGun": {
+      "sellPrice": 19.78,
+      "costs": {
+        "metal": 4,
+        "hose": 2
+      }
+    },
+    "arm": {
+      "sellPrice": 51.68,
+      "costs": {
+        "metal": 2,
+        "circuit": 1,
+        "motor": 2
+      }
+    },
+    "conveyor": {
+      "sellPrice": 102.58,
+      "costs": {
+        "belt": 1,
+        "gear": 2,
+        "metalWheel": 8,
+        "motor": 1
+      }
+    },
+    "lifter": {
+      "sellPrice": 55.46,
+      "costs": {
+        "metal": 3,
+        "cable": 2,
+        "hose": 2,
+        "motor": 1,
+        "pump": 1
+      }
+    },
+    "logicUnit": {
+      "sellPrice": 26.75,
+      "costs": {
+        "wire": 5,
+        "circuit": 4
+      }
+    },
+    "mover": {
+      "sellPrice": 113.65,
+      "costs": {
+        "metal": 3,
+        "gear": 4,
+        "metalWheel": 4,
+        "motor": 2
+      }
+    },
+    "road": {
+      "sellPrice": 49.80,
+      "costs": {
+        "concrete": 4,
+        "advConcrete": 2
+      }
+    },
+    "support": {
+      "sellPrice": 40.53,
+      "costs": {
+        "metal": 2,
+        "advConcrete": 2
+      }
+    },
+    "thing-a-ma-jig": {
+      "sellPrice": 61.02,
+      "costs": {
+        "circuit": 3,
+        "hose": 2,
+        "motor": 1,
+        "pump": 2
+      }
+    },
+    "widget": {
+      "sellPrice": 14.78,
+      "costs": {
+        "metal": 1,
+        "plastic": 4,
+        "wire": 2,
+        "circuit": 1
+      }
+    },
+    "toycar": {
+      "sellPrice": 35.38,
+      "costs": {
+        "metal": 1,
+        "paint": 1,
+        "plastic": 3,
+        "plasticWheel": 4,
+        "box": 1
+      }
+    },
+    "watergun": {
+      "sellPrice": 29.62,
+      "costs": {
+        "paint": 1,
+        "plastic": 6,
+        "hose": 2,
+        "box": 1
+      }
+    }
+  },
+  "tierThree": {
+    "advLogicUnit": {
+      "sellPrice": 87.15,
+      "costs": {
+        "wire": 4,
+        "circuit": 4,
+        "logicUnit": 2
+      }
+    },
+    "assemblyLine": {
+      "sellPrice": 715.84,
+      "costs": {
+        "airGun": 1,
+        "arm": 2,
+        "conveyor": 3,
+        "lifter": 1,
+        "mover": 1
+      }
+    },
+    "jetEngine": {
+      "sellPrice": 180.04,
+      "costs": {
+        "metal": 8,
+        "wire": 12,
+        "hose": 6,
+        "pump": 4,
+        "thing-a-ma-jig": 1
+      }
+    },
+    "sensor": {
+      "sellPrice": 51.51,
+      "costs": {
+        "rareMetal": 2,
+        "wire": 1,
+        "circuit": 1,
+        "logicUnit": 1
+      }
+    },
+    "bridge": {
+      "sellPrice": 1019.16,
+      "costs": {
+        "road": 6,
+        "support": 6
+      }
+    },
+    "forklift": {
+      "sellPrice": 198.04,
+      "costs": {
+        "metal": 6,
+        "rubber": 8,
+        "metalWheel": 4,
+        "motor": 2,
+        "box": 4
+      }
+    },
+    "radioTower": {
+      "sellPrice": 414.00,
+      "costs": {
+        "metal": 12,
+        "wire": 6,
+        "support": 4
+      }
+    },
+    "tablet": {
+      "sellPrice": 93.14,
+      "costs": {
+        "plastic": 1,
+        "wire": 3,
+        "circuit": 3,
+        "logicUnit": 1,
+        "box": 1
+      }
+    }
+  },
+  "tierFour": {
+
+  },
+  "builder": {
+    "tierOne": {
+      "sellPrice": 328.74,
+      "costs": {
+        "motor": 1,
+        "arm": 2,
+        "conveyor": 1,
+        "thing-a-ma-jig": 1
+      }
+    },
+    "tierTwo": {
+      "sellPrice": 423.20,
+      "costs": {
+        "motor": 1,
+        "arm": 3,
+        "conveyor": 1,
+        "thing-a-ma-jig": 1,
+        "widget": 2
+      }
+    }
+  },
+  "tasker": {
+    "purchasing": {
+      "sellPrice": 79.32,
+      "costs": {
+        "paint": 1,
+        "wire": 6,
+        "circuit": 4,
+        "logicUnit": 1,
+        "widget": 1
+      }
+    }
+  }
+}
